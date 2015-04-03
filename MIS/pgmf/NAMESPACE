@@ -1,0 +1,9 @@
+exportPattern("^[^\\.]")
+export(test)
+export(pgmf)
+export(pgmf.get.rows)
+import(xlsx)
+import(RPostgreSQL)
+import(jsonlite)
+
+

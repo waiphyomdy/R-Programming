@@ -1,0 +1,31 @@
+Package: pgmf
+Type: Package
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph)
+License: GPL
+LazyData: yes
+Imports:
+   xlsx,
+   RPostgreSQL,
+   jsonlite
+Collate:
+   'pgmf.R'
+   'pgmfOutreach.R'
+   'pgmfPortfolio.R'
+   'pgmfProduct.R'
+   'pgmfProject.R'
+   'pgmfProjecttsp.R'
+   'pgmfSector.R'
+   'pgmfStaff.R'
+   'pgmf_test.R'
+   'pgmfTransactCollection.R'
+   'pgmfTransactFinancial.R'
+   'pgmfTransactLoan.R'
+   'pgmfTransactLoanportfolioQuality.R'
+   'pgmfTransactLoanUtilization.R'
+   'pgmfTransactOutreach.R'
+   'pgmfTransactRepayment.R'
+   'pgmfTransactSaving.R'
+   'pgmfTransactStaff.R'
